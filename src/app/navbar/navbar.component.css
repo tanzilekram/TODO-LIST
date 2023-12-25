@@ -1,0 +1,39 @@
+/* navbar.component.css */
+
+.navbar {
+    background-color:#3227A7;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 120px; /* Adjust the size of your logo */
+    margin-right: 10px;
+    height:60px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
